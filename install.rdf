@@ -14,8 +14,8 @@
     <targetApplication>
       <r:Description>
         <id>{3c2e2abc-06d4-11e1-ac3b-374f68613e61}</id> <!-- GUID for B2G -->
-        <minVersion>35.0a1</minVersion>
-        <maxVersion>38.0a1</maxVersion>
+        <minVersion>6.0</minVersion>
+        <maxVersion>*</maxVersion>
       </r:Description>
     </targetApplication>
   </r:Description>
