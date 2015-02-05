@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<r:RDF xmlns="http://www.mozilla.org/2004/em-rdf#"
-       xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <r:Description about="urn:mozilla:install-manifest">
-    <creator>Dietrich Ayala</creator>
-    <description>Example of manifest approach to adding a new Web API.</description>
-    <homepageURL>http://metafluff.com/</homepageURL>
-    <id>example-webapi-manifest@metafluff.com</id>
-    <name>Example Web API via Manifest</name>
-    <version>1</version>
+<RDF xmlns="http://www.mozilla.org/2004/em-rdf#"
+       xmlns:em="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:creator>Dietrich Ayala</em:creator>
+    <em:description>Example of manifest approach to adding a new Web API.</em:description>
+    <em:homepageURL>http://metafluff.com/</em:homepageURL>
+    <em:id>example-webapi-manifest@metafluff.com</em:id>
+    <em:name>Example Web API via Manifest</em:name>
+    <em:version>1</em:version>
 
-    <type>2</type>
+    <em:type>2</em:type>
 
-    <targetApplication>
-      <r:Description>
-        <id>{3c2e2abc-06d4-11e1-ac3b-374f68613e61}</id> <!-- GUID for B2G -->
-        <minVersion>6.0</minVersion>
-        <maxVersion>*</maxVersion>
-      </r:Description>
-    </targetApplication>
-  </r:Description>
-</r:RDF>
+    <em:targetApplication>
+      <Description>
+        <em:id>{3c2e2abc-06d4-11e1-ac3b-374f68613e61}</em:id> <!-- GUID for B2G -->
+        <em:minVersion>6.0</em:minVersion>
+        <em:maxVersion>*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>
