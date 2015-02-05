@@ -1,5 +1,5 @@
 
-component {a5d89cee-85f4-44ad-b8eb-39ad39170823} components/helloworldapi.js
-contract @mozilla.org/helloworld;1 {a5d89cee-85f4-44ad-b8eb-39ad39170823} 
+component {973fe50f-59fb-403a-bec0-ece4f44e3cde} components/helloworldapi.js
+contract @mozilla.org/helloworld;1 {973fe50f-59fb-403a-bec0-ece4f44e3cde} 
 category JavaScript-navigator-property helloworld @mozilla.org/helloworld;1
 

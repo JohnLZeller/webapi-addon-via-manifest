@@ -6,7 +6,7 @@ function helloWorld() {
 helloWorld.prototype = {
 
   // this must match whatever is in chrome.manifest!
-  classID: Components.ID("{a5d89cee-85f4-44ad-b8eb-39ad39170823}"),
+  classID: Components.ID("{973fe50f-59fb-403a-bec0-ece4f44e3cde}"),
 
   QueryInterface: XPCOMUtils.generateQI([Components.interfaces.nsISupports]),
 
