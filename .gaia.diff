@@ -1,0 +1,13 @@
+diff --git a/build/config/additional-extensions.json b/build/config/additional-extensions.json
+index b50c387..b937a4e 100644
+--- a/build/config/additional-extensions.json
++++ b/build/config/additional-extensions.json
+@@ -1,5 +1,8 @@
+ {
+   "Screen Reader Simulator": {
+     "url" : "http://addons.mozilla.org/firefox/downloads/latest/440614/addon-440614-latest.xpi"
++  },
++  "Manifest Example": {
++  	"url" : "file:///Users/jzeller/JobSchedulerAPI/xpis/manifest-example.xpi"
+   }
+ }
