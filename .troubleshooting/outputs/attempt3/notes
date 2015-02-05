@@ -1,0 +1,13 @@
+1) Build was successful!
+2) 'Manifest Example' extension xpi
+	showed up under gaia/build_stage/additional-extensions
+	was NOT unpacked under gaia/build_stage/additional-extensions
+3) Ran b2g-desktop with '/Applications/B2G.app/Contents/MacOS/b2g-bin -jsconsole -profile ~/JobSchedulerAPI/gaia/profile-debug/'
+4) Message 'HEREHEREHEREHERE' is not dumped to stdout
+5) CTRL+Z to stop process
+6) Fix Attempt:
+	Add the following lines to the install.rdf:
+	    <em:unpack>true</em:unpack>
+	    <em:bootstrap>false</em:bootstrap>
+7) Refresh entire gaia repo with a new copy
+8) Rerun gaia build with 'make DESKTOP_SHIMS=1 NOFTU=1 DEBUG=1'

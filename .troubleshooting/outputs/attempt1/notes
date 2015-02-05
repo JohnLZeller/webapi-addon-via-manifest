@@ -1,0 +1,5 @@
+1) Froze on System Error:
+	System JS : ERROR resource://gre/modules/commonjs/toolkit/loader.js -> file:///Users/jzeller/JobSchedulerAPI/gaia/build/additional-extensions.js:67 - Error: No extension ID found
+2) CTRL+Z to stop process
+3) Fix Attempt: Removed 'r:' from all the lines in install.rdf
+4) Rerun gaia build with 'make DESKTOP_SHIMS=1 NOFTU=1 DEBUG=1'

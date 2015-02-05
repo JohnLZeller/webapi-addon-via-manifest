@@ -1,0 +1,9 @@
+1) Build was successful!
+2) 'Manifest Example' extension xpi 
+	showed up under gaia/build_stage/additional-extensions
+	WAS unpacked properly under gaia/build_stage/additional-extensions
+3) Ran b2g-desktop with '/Applications/B2G.app/Contents/MacOS/b2g-bin -jsconsole -profile ~/JobSchedulerAPI/gaia/profile-debug/'
+4) Message 'HEREHEREHEREHERE' is not dumped to stdout
+5) CTRL+Z to stop process
+6) Fix Attempt:
+	nothing yet
