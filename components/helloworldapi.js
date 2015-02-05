@@ -18,3 +18,5 @@ helloWorld.prototype = {
 // The following line is what XPCOM uses to create components. Each component prototype
 // must have a .classID which is used to create it.
 const NSGetFactory = XPCOMUtils.generateNSGetFactory([helloWorld]);
+
+dump('HEREHEREHEREHERE');
